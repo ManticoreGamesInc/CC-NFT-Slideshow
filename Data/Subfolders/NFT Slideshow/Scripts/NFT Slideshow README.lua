@@ -1,19 +1,12 @@
-<div align="center">
+--[[
 
-# NFT Slideshow
+  _   _ ______ _______    _____ _ _     _           _
+ | \ | |  ____|__   __|  / ____| (_)   | |         | |
+ |  \| | |__     | |    | (___ | |_  __| | ___  ___| |__   _____      __
+ | . ` |  __|    | |     \___ \| | |/ _` |/ _ \/ __| '_ \ / _ \ \ /\ / /
+ | |\  | |       | |     ____) | | | (_| |  __/\__ \ | | | (_) \ V  V /
+ |_| \_|_|       |_|    |_____/|_|_|\__,_|\___||___/_| |_|\___/ \_/\_/
 
-[![Build Status](https://github.com/ManticoreGamesInc/CC-Player-List/workflows/CI/badge.svg)](https://github.com/ManticoreGamesInc/CC-NFT-Slideshow/actions/workflows/ci.yml?query=workflow%3ACI%29)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/ManticoreGamesInc/CC-NFT-Slideshow?style=plastic)
-
-![TitleCard](/Screenshots/NFT_Slideshow.png)
-
-</div>
-
-## Finding the Component
-
-This component can be found under the **CoreAcademy** account on Community Content.
-
-## Overview
 
 NFT Slideshow allows creators to display NFTs in a slideshow format.
 
@@ -21,7 +14,9 @@ The NFTs can be filtered by owners, contract addresses, and token ids.
 
 The slideshow is displayed and updated in screen-space and world-space UI.
 
-## Setup
+=====
+Setup
+=====
 
 1) Drag and drop the "Example Scene" template into the Hierarchy.
 2) Preview the project.
@@ -29,7 +24,9 @@ The slideshow is displayed and updated in screen-space and world-space UI.
 4) Stop the preview. Select one of the NFT Slideshow template root object and open the Properties window.
 5) Change the custom properties to desired NFT filter options.
 
-## How to use
+==========
+How to use
+==========
 
 The root of the template contains 6 custom properties.
 
@@ -57,3 +54,19 @@ Disable Trigger
 
 If true then the trigger will be disabled. This is useful for a single image that doesn't need a slideshow.
 
+======
+Devlog
+======
+
+1.1
+
+- Trigger events now checks for local player only
+
+1.2
+
+- Deprecated `GetTokensForPlayer` is removed
+- Uses `GetWalletsForPlayer` instead
+- Image Template updated to use Aspect Ratio
+- Disable Trigger custom property added
+
+]]--
