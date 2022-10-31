@@ -2,7 +2,7 @@
 
 # NFT Slideshow
 
-[![Build Status](https://github.com/ManticoreGamesInc/CC-Player-List/workflows/CI/badge.svg)](https://github.com/ManticoreGamesInc/CC-NFT-Slideshow/actions/workflows/ci.yml?query=workflow%3ACI%29)
+[![Build Status](https://github.com/ManticoreGamesInc/CC-NFT-Slideshow/workflows/CI/badge.svg)](https://github.com/ManticoreGamesInc/CC-NFT-Slideshow/actions/workflows/ci.yml?query=workflow%3ACI%29)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/ManticoreGamesInc/CC-NFT-Slideshow?style=plastic)
 
 ![TitleCard](/Screenshots/NFT_Slideshow.png)
